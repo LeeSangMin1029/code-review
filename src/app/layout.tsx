@@ -19,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`relative ${inter.className}`}>
+      <body className={`relative h-screen ${inter.className}`}>
         <Header />
-        {children}
+        <div className="pt-14 w-full h-full">{children}</div>
       </body>
     </html>
   );
