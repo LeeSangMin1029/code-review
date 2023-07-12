@@ -70,6 +70,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hookform/error-message@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@hookform/error-message@npm:2.0.1"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+    react-hook-form: ^7.0.0
+  checksum: eb3c33ab3fd2fe02b9bb1686f3d1ef2504ee2bb4e8e848797e2c68d957e53b1150f5f13946c65e386ed3b6e95e3b3fba29480bab1e0f60c4972e225248c8c68e
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.10":
   version: 0.11.10
   resolution: "@humanwhocodes/config-array@npm:0.11.10"
@@ -949,6 +960,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "code-review@workspace:."
   dependencies:
+    "@hookform/error-message": ^2.0.1
     "@redux-devtools/extension": ^3.2.5
     "@reduxjs/toolkit": ^1.9.5
     "@types/node": 20.4.1
@@ -963,6 +975,7 @@ __metadata:
     postcss: 8.4.25
     react: 18.2.0
     react-dom: 18.2.0
+    react-hook-form: ^7.45.1
     react-redux: ^8.1.1
     redux: ^4.2.1
     redux-logger: ^3.0.6
@@ -3414,6 +3427,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:^7.45.1":
+  version: 7.45.1
+  resolution: "react-hook-form@npm:7.45.1"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 3abe1dcf449a3d438b4e5403d93d1502f6dab05afd5c5215f0fc88a32f3d06e7f4b77bee75479359c22a418af6ea0f52711478c73773cb5fd0f43da50669aa17
   languageName: node
   linkType: hard
 
