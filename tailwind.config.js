@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         blue: "#0034D1",
+        error: "rgb(239 68 68)",
       },
       boxShadow: {
         button: "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)",
