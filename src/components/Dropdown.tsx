@@ -19,7 +19,7 @@ const Dropdown = ({ data }: DropdownProps) => {
     >
       Select Language
       {open && (
-        <div className="absolute mt-7 rounded-md shadow-card ">
+        <div className="absolute ml-9 mt-8 rounded-md shadow-card ">
           <ul className="my-1 ">
             {data?.map((data: string) => (
               <DropdownItem key={randomKey()} data={data} />
